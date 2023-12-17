@@ -1,2 +1,2 @@
-# CG-Lab
-Esses projetos foram criados durante a matéria de Computação Gráfica no curso de Ciência da Computação.
+# CG-Lab | PROJETO FINAL
+Em colaboração com [@nick-santos](https://github.com/nick-santos)!
