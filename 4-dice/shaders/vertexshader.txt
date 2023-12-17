@@ -1,0 +1,13 @@
+#version 400
+
+layout (location=0) in vec3 attr_posicao;
+layout (location=1) in vec2 textura;
+
+uniform mat4 mvp;
+out vec2 fsTextura;
+
+void main(void) 
+{
+    fsTextura = textura;
+    gl_Position = mvp * vec4(attr_posicao,1.0f);
+}

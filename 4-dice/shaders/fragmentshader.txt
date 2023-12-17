@@ -1,0 +1,10 @@
+#version 400
+
+uniform sampler2D textureSlot;
+in vec2 fsTextura;
+out vec4 color;
+
+void main(void) 
+{
+    color = texture(textureSlot,fsTextura);
+}

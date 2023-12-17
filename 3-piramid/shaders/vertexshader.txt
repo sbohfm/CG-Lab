@@ -1,0 +1,12 @@
+#version 400
+
+layout(location=0) in vec3 attr_posicao;
+layout(location=1) in vec3 attr_cor;
+
+uniform mat4 mvp;
+out vec3 cor;
+
+void main(void) {
+    cor = attr_cor;
+    gl_Position = mvp * vec4(attr_posicao,1.0f);
+}
