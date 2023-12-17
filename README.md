@@ -1,2 +1,2 @@
 # CG-Lab | PROJETO FINAL
-Em colaboração com [@sbohfm](https://github.com/sbohfm)!
+Em colaboração com [@nick-vs](https://github.com/nick-vs)!
